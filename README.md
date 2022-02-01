@@ -1,8 +1,9 @@
 # Handle-Date-and-Time-data
 
-
-``` mermaid
-graph TD;
-A(START) --> B(Check Temperature);
-B -->C(Is the room hot?)
- ```
+```mermaid
+flowchart LR
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
